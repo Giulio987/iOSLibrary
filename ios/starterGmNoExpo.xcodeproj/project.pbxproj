@@ -11,7 +11,28 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		3A89B3E72A3A5F7F00E65224 /* wmelon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A89B3E62A3A5F7F00E65224 /* wmelon.swift */; };
+		3A71ED652A41AF1300A52F5C /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A71ED552A41AF1300A52F5C /* Fontisto.ttf */; };
+		3A71ED662A41AF1300A52F5C /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A71ED562A41AF1300A52F5C /* Octicons.ttf */; };
+		3A71ED672A41AF1300A52F5C /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A71ED572A41AF1300A52F5C /* Feather.ttf */; };
+		3A71ED682A41AF1300A52F5C /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A71ED582A41AF1300A52F5C /* Entypo.ttf */; };
+		3A71ED692A41AF1300A52F5C /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A71ED592A41AF1300A52F5C /* FontAwesome5_Brands.ttf */; };
+		3A71ED6A2A41AF1300A52F5C /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A71ED5A2A41AF1300A52F5C /* MaterialCommunityIcons.ttf */; };
+		3A71ED6B2A41AF1300A52F5C /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A71ED5B2A41AF1300A52F5C /* AntDesign.ttf */; };
+		3A71ED6C2A41AF1300A52F5C /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A71ED5C2A41AF1300A52F5C /* Foundation.ttf */; };
+		3A71ED6D2A41AF1300A52F5C /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A71ED5D2A41AF1300A52F5C /* Ionicons.ttf */; };
+		3A71ED6E2A41AF1300A52F5C /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A71ED5E2A41AF1300A52F5C /* FontAwesome5_Solid.ttf */; };
+		3A71ED6F2A41AF1300A52F5C /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A71ED5F2A41AF1300A52F5C /* FontAwesome5_Regular.ttf */; };
+		3A71ED702A41AF1300A52F5C /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A71ED602A41AF1300A52F5C /* FontAwesome.ttf */; };
+		3A71ED712A41AF1300A52F5C /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A71ED612A41AF1300A52F5C /* Zocial.ttf */; };
+		3A71ED722A41AF1300A52F5C /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A71ED622A41AF1300A52F5C /* EvilIcons.ttf */; };
+		3A71ED732A41AF1300A52F5C /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A71ED632A41AF1300A52F5C /* SimpleLineIcons.ttf */; };
+		3A71ED742A41AF1300A52F5C /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A71ED642A41AF1300A52F5C /* MaterialIcons.ttf */; };
+		3A71ED772A41B7C400A52F5C /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71ED762A41B7C400A52F5C /* ColorPalette.swift */; };
+		3A71ED792A41B7D400A52F5C /* ColorPaletteProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71ED782A41B7D400A52F5C /* ColorPaletteProxy.swift */; };
+		3A71ED7D2A41B88300A52F5C /* ColorPaletteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A71ED7C2A41B88300A52F5C /* ColorPaletteManager.m */; };
+		3A71ED9D2A4588A700A52F5C /* CalendarPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71ED9C2A4588A700A52F5C /* CalendarPicker.swift */; };
+		3A71ED9F2A4588BC00A52F5C /* CalendarPickerProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71ED9E2A4588BC00A52F5C /* CalendarPickerProxy.swift */; };
+		3A71EDA12A4588D100A52F5C /* CalendarPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A71EDA02A4588D100A52F5C /* CalendarPickerManager.m */; };
 		404BC7106B408D27B3D877AF /* libPods-starterGmNoExpo-starterGmNoExpoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8479C52AF53818B31C0630 /* libPods-starterGmNoExpo-starterGmNoExpoTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		F8FCA4462E02C77864A03D31 /* libPods-starterGmNoExpo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD007C9812A787CA29DD6EE /* libPods-starterGmNoExpo.a */; };
@@ -37,8 +58,29 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = starterGmNoExpo/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = starterGmNoExpo/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = starterGmNoExpo/main.m; sourceTree = "<group>"; };
-		3A89B3E52A3A5F7E00E65224 /* starterGmNoExpo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "starterGmNoExpo-Bridging-Header.h"; sourceTree = "<group>"; };
-		3A89B3E62A3A5F7F00E65224 /* wmelon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wmelon.swift; sourceTree = "<group>"; };
+		3A71ED552A41AF1300A52F5C /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		3A71ED562A41AF1300A52F5C /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		3A71ED572A41AF1300A52F5C /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		3A71ED582A41AF1300A52F5C /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		3A71ED592A41AF1300A52F5C /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		3A71ED5A2A41AF1300A52F5C /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		3A71ED5B2A41AF1300A52F5C /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		3A71ED5C2A41AF1300A52F5C /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		3A71ED5D2A41AF1300A52F5C /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		3A71ED5E2A41AF1300A52F5C /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		3A71ED5F2A41AF1300A52F5C /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		3A71ED602A41AF1300A52F5C /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		3A71ED612A41AF1300A52F5C /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		3A71ED622A41AF1300A52F5C /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		3A71ED632A41AF1300A52F5C /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		3A71ED642A41AF1300A52F5C /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		3A71ED762A41B7C400A52F5C /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		3A71ED782A41B7D400A52F5C /* ColorPaletteProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteProxy.swift; sourceTree = "<group>"; };
+		3A71ED7C2A41B88300A52F5C /* ColorPaletteManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorPaletteManager.m; sourceTree = "<group>"; };
+		3A71ED982A433B9400A52F5C /* iosLib-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iosLib-Bridging-Header.h"; sourceTree = "<group>"; };
+		3A71ED9C2A4588A700A52F5C /* CalendarPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPicker.swift; sourceTree = "<group>"; };
+		3A71ED9E2A4588BC00A52F5C /* CalendarPickerProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPickerProxy.swift; sourceTree = "<group>"; };
+		3A71EDA02A4588D100A52F5C /* CalendarPickerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarPickerManager.m; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = starterGmNoExpo/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F8479C52AF53818B31C0630 /* libPods-starterGmNoExpo-starterGmNoExpoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-starterGmNoExpo-starterGmNoExpoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E644BEF90C400B734CDD59C /* Pods-starterGmNoExpo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-starterGmNoExpo.release.xcconfig"; path = "Target Support Files/Pods-starterGmNoExpo/Pods-starterGmNoExpo.release.xcconfig"; sourceTree = "<group>"; };
@@ -89,12 +131,16 @@
 		13B07FAE1A68108700A75B9A /* starterGmNoExpo */ = {
 			isa = PBXGroup;
 			children = (
+				3A71ED9B2A45889200A52F5C /* CalendarPicker */,
+				3A71ED752A41B7B000A52F5C /* ColorPalette */,
+				3A71ED542A41AF1300A52F5C /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				3A71ED982A433B9400A52F5C /* iosLib-Bridging-Header.h */,
 			);
 			name = starterGmNoExpo;
 			sourceTree = "<group>";
@@ -109,6 +155,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3A71ED542A41AF1300A52F5C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3A71ED552A41AF1300A52F5C /* Fontisto.ttf */,
+				3A71ED562A41AF1300A52F5C /* Octicons.ttf */,
+				3A71ED572A41AF1300A52F5C /* Feather.ttf */,
+				3A71ED582A41AF1300A52F5C /* Entypo.ttf */,
+				3A71ED592A41AF1300A52F5C /* FontAwesome5_Brands.ttf */,
+				3A71ED5A2A41AF1300A52F5C /* MaterialCommunityIcons.ttf */,
+				3A71ED5B2A41AF1300A52F5C /* AntDesign.ttf */,
+				3A71ED5C2A41AF1300A52F5C /* Foundation.ttf */,
+				3A71ED5D2A41AF1300A52F5C /* Ionicons.ttf */,
+				3A71ED5E2A41AF1300A52F5C /* FontAwesome5_Solid.ttf */,
+				3A71ED5F2A41AF1300A52F5C /* FontAwesome5_Regular.ttf */,
+				3A71ED602A41AF1300A52F5C /* FontAwesome.ttf */,
+				3A71ED612A41AF1300A52F5C /* Zocial.ttf */,
+				3A71ED622A41AF1300A52F5C /* EvilIcons.ttf */,
+				3A71ED632A41AF1300A52F5C /* SimpleLineIcons.ttf */,
+				3A71ED642A41AF1300A52F5C /* MaterialIcons.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3A71ED752A41B7B000A52F5C /* ColorPalette */ = {
+			isa = PBXGroup;
+			children = (
+				3A71ED762A41B7C400A52F5C /* ColorPalette.swift */,
+				3A71ED782A41B7D400A52F5C /* ColorPaletteProxy.swift */,
+				3A71ED7C2A41B88300A52F5C /* ColorPaletteManager.m */,
+			);
+			path = ColorPalette;
+			sourceTree = "<group>";
+		};
+		3A71ED9B2A45889200A52F5C /* CalendarPicker */ = {
+			isa = PBXGroup;
+			children = (
+				3A71ED9C2A4588A700A52F5C /* CalendarPicker.swift */,
+				3A71ED9E2A4588BC00A52F5C /* CalendarPickerProxy.swift */,
+				3A71EDA02A4588D100A52F5C /* CalendarPickerManager.m */,
+			);
+			path = CalendarPicker;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,14 +208,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				3A89B3E62A3A5F7F00E65224 /* wmelon.swift */,
 				13B07FAE1A68108700A75B9A /* starterGmNoExpo */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* starterGmNoExpoTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
-				3A89B3E52A3A5F7E00E65224 /* starterGmNoExpo-Bridging-Header.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -247,7 +334,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A71ED652A41AF1300A52F5C /* Fontisto.ttf in Resources */,
+				3A71ED702A41AF1300A52F5C /* FontAwesome.ttf in Resources */,
+				3A71ED6C2A41AF1300A52F5C /* Foundation.ttf in Resources */,
+				3A71ED6F2A41AF1300A52F5C /* FontAwesome5_Regular.ttf in Resources */,
+				3A71ED6D2A41AF1300A52F5C /* Ionicons.ttf in Resources */,
+				3A71ED722A41AF1300A52F5C /* EvilIcons.ttf in Resources */,
+				3A71ED682A41AF1300A52F5C /* Entypo.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				3A71ED712A41AF1300A52F5C /* Zocial.ttf in Resources */,
+				3A71ED732A41AF1300A52F5C /* SimpleLineIcons.ttf in Resources */,
+				3A71ED672A41AF1300A52F5C /* Feather.ttf in Resources */,
+				3A71ED662A41AF1300A52F5C /* Octicons.ttf in Resources */,
+				3A71ED692A41AF1300A52F5C /* FontAwesome5_Brands.ttf in Resources */,
+				3A71ED6B2A41AF1300A52F5C /* AntDesign.ttf in Resources */,
+				3A71ED742A41AF1300A52F5C /* MaterialIcons.ttf in Resources */,
+				3A71ED6E2A41AF1300A52F5C /* FontAwesome5_Solid.ttf in Resources */,
+				3A71ED6A2A41AF1300A52F5C /* MaterialCommunityIcons.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,7 +522,12 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
-				3A89B3E72A3A5F7F00E65224 /* wmelon.swift in Sources */,
+				3A71ED9F2A4588BC00A52F5C /* CalendarPickerProxy.swift in Sources */,
+				3A71ED792A41B7D400A52F5C /* ColorPaletteProxy.swift in Sources */,
+				3A71ED9D2A4588A700A52F5C /* CalendarPicker.swift in Sources */,
+				3A71EDA12A4588D100A52F5C /* CalendarPickerManager.m in Sources */,
+				3A71ED772A41B7C400A52F5C /* ColorPalette.swift in Sources */,
+				3A71ED7D2A41B88300A52F5C /* ColorPaletteManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +604,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = starterGmNoExpo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -508,7 +617,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = starterGmNoExpo;
-				SWIFT_OBJC_BRIDGING_HEADER = "starterGmNoExpo-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "iosLib-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -523,6 +632,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = starterGmNoExpo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -535,7 +645,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = starterGmNoExpo;
-				SWIFT_OBJC_BRIDGING_HEADER = "starterGmNoExpo-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "iosLib-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -590,7 +700,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -655,7 +765,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
