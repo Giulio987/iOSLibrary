@@ -35,28 +35,3 @@ RCT_REMAP_VIEW_PROPERTY(name, __custom__, type)                                 
   };                                                                                                        \
   proxy.name = eventHandler;                                                                                \
 }
-
-
-#define RCT_EXPORT_SWIFTUI_CALLBACK_STR(name, type, proxyClass)                                                      \
-RCT_REMAP_VIEW_PROPERTY(name, __custom__, type)                                                                  \
-- (void)set_##name:(NSDictionary *)event forView:(UIView *)view withDefaultView:(UIView *)defaultView RCT_DYNAMIC { \
-  NSMutableDictionary *storage = [proxyClass storage];                                                           \
-  proxyClass *proxy = storage[[NSValue valueWithNonretainedObject:view]];                                        \
-  void (^eventHandler)(NSDictionary *event) = ^(NSDictionary *event) {                                           \
-    NSMutableDictionary *convertedEvent = [NSMutableDictionary dictionaryWithDictionary:event];                   \
-    for (NSString *key in convertedEvent) {                                                                      \
-      id value = convertedEvent[key];                                                                            \
-      if ([value isKindOfClass:[NSString class]]) {                                                              \
-        [convertedEvent setObject:value forKey:key];                                                             \
-      } else if ([value isKindOfClass:[NSNumber class]]) {                                                       \
-        NSString *stringValue = [NSString stringWithFormat:@"%@", value];                                        \
-        [convertedEvent setObject:stringValue forKey:key];                                                       \
-      }                                                                                                          \
-    }                                                                                                            \
-    RCTComponentEvent *componentEvent = [[RCTComponentEvent alloc] initWithName:@""#name                         \
-                                                                        viewTag:view.reactTag                  \
-                                                                           body:convertedEvent];              \
-    [self.bridge.eventDispatcher sendEvent:componentEvent];                                                      \
-  };                                                                                                             \
-  proxy.name = eventHandler;                                                                                     \
-}

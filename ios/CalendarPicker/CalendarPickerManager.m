@@ -19,7 +19,7 @@
 RCT_EXPORT_MODULE()
 
 RCT_EXPORT_SWIFTUI_PROPERTY_STR(dateString, NSString *, CalendarPickerProxy)
-RCT_EXPORT_SWIFTUI_CALLBACK_STR(onDateChange, RCTDirectEventBlock, CalendarPickerProxy)
+RCT_EXPORT_SWIFTUI_CALLBACK(onDateChange, RCTDirectEventBlock, CalendarPickerProxy)
 
 
 - (UIView *) view{
